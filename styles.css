@@ -1,1 +1,97 @@
-/* Styles for the Advanced Markup assignment. */
+body {
+	background-color: #E20B00;
+}
+header h1 {
+	font-size:3em;
+}
+header h1, footer {
+	color: #FFD2D0;
+}
+nav ul.top-nav {
+	padding-left: 5px;
+}
+nav ul.bottom-nav {
+	padding-left: 5px;
+}
+nav ul li {
+	display: inline;
+	margin-right: 2em;
+	font-weight: bold;
+}
+nav ul.top-nav li {
+	background-color: #E58883;
+	padding: 15px 15px 10px 15px;
+	margin-right: 0;
+	border-style: solid;
+}
+nav ul.top-nav li:hover {
+	background-color: #340300;
+	color: #ADB1CF;
+}
+#sidebar {
+	position: relative;
+	float: right;
+	background-color: #07127B;
+	width: 18%;
+	margin: auto;
+	padding: 10px;
+	color: #ADB1CF;
+}
+aside#sidebar ul li {
+	list-style-type: none;
+	display: inline;
+}
+dl {
+	font-family:monospace;
+	line-height:1.8;
+}
+dt {
+	font-weight: bold;
+}
+ul.poem {
+	list-style-type: none;
+	font-size: 1em;
+	line-height: 1.8;
+	padding-left: 2px;
+}
+section#content {
+	margin-right: 20%;
+	background-color: #B3AC00;
+	text-align: center;
+	padding: 0.5em;
+	border-style: solid;
+	border-width: 1.5em;
+	border-color:#343200;
+	width: auto;
+}
+ul.poem li:first-child::first-letter {
+	font-size: 2em;
+	font-weight:bold;
+}
+ul.poem li:first-child {
+	line-height: 1.4;
+}
+section#content p {
+	text-align: left;
+}
+p.bio-photo {
+	float: left;
+	font-size: small;
+	width: 257px;
+	margin: 0 10px 5px 5px;
+	border-style: solid;
+	padding: 5px;
+}
+table#selected_works {
+	position: relative;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+h2#listtitle {
+	line-height: 0;
+}
+.copy-footer {
+	margin-top: 30px;
+}
